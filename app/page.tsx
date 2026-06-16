@@ -21,23 +21,6 @@ import Image from "next/image";export default function Home() {
       <span className="rounded-full border border-cyan-500 px-4 py-2 text-cyan-400">
         Mechanical Engineer
       </span>
-      <div className="mt-4 flex flex-wrap gap-3">
-  <span className="rounded-full bg-green-500/20 px-3 py-1 text-green-400">
-    Open To Work
-  </span>
-
-  <span className="rounded-full bg-cyan-500/20 px-3 py-1 text-cyan-400">
-    Production Engineer
-  </span>
-
-  <span className="rounded-full bg-cyan-500/20 px-3 py-1 text-cyan-400">
-    Manufacturing Engineer
-  </span>
-
-  <span className="rounded-full bg-cyan-500/20 px-3 py-1 text-cyan-400">
-    Defense Industry
-  </span>
-</div>
 
       <h1 className="mt-8 text-5xl font-extrabold md:text-7xl">
         Alhusseen Ramy
@@ -75,7 +58,7 @@ import Image from "next/image";export default function Home() {
 
     <div className="flex justify-center">
       <Image
-        src="/profile.jfif.jfif"
+        src="/profile.jfif"
         alt="Alhusseen Ramy"
         width={420}
         height={420}
