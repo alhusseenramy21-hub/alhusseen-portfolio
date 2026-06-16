@@ -82,7 +82,7 @@ export default function Home() {
 
           <div className="flex justify-center">
             <Image
-              src="/profile.jfif"
+              src="/profile.1"
               alt="Alhusseen Ramy"
               width={420}
               height={420}
